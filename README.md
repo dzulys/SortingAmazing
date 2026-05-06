@@ -29,3 +29,11 @@ Kompleksitas:
 Best Case: O(n log n)
 Average Case: O(n²)
 Worst Case: O(n²)
+
+Optimasi:
+Menggunakan Binary Search
+Mengurangi jumlah perbandingan data
+Kompleksitas:
+Best Case: O(n log n)
+Average Case: O(n²)
+Worst Case: O(n²)
