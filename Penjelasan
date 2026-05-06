@@ -1,0 +1,84 @@
+# 1. Bubble Sort
+Penjelasan
+
+Bubble Sort adalah algoritma pengurutan sederhana yang bekerja dengan cara membandingkan dua elemen yang bersebelahan, lalu menukarnya jika urutannya salah.
+
+Proses ini dilakukan berulang kali sampai seluruh data terurut.
+
+Disebut “Bubble” karena elemen terbesar akan “mengapung” ke bagian akhir array seperti gelembung.
+
+Cara Kerja
+
+Contoh data:
+
+5 3 8 4 2
+
+Langkah pertama:
+
+5 > 3 → tukar
+5 < 8 → tidak tukar
+8 > 4 → tukar
+8 > 2 → tukar
+
+Hasil:
+
+3 5 4 2 8
+
+Setelah beberapa iterasi, hasil akhir:
+
+2 3 4 5 8
+Contoh Penggunaan
+
+Bubble Sort cocok digunakan untuk:
+
+Data kecil
+Pembelajaran algoritma dasar
+Data yang hampir terurut
+
+Contoh:
+
+Mengurutkan nilai siswa
+Mengurutkan angka kecil
+Simulasi pembelajaran sorting
+
+# 2. Binary Insertion Sort
+Penjelasan
+
+Binary Insertion Sort adalah pengembangan dari Insertion Sort.
+
+Perbedaannya:
+
+posisi penyisipan dicari menggunakan Binary Search
+sehingga jumlah perbandingan menjadi lebih sedikit
+
+Namun proses penggeseran elemen tetap dilakukan satu per satu.
+
+Cara Kerja
+
+Contoh data:
+
+5 3 8 4 2
+Langkah:
+Ambil angka 3
+Cari posisi menggunakan Binary Search
+Sisipkan 3 sebelum 5
+
+Hasil:
+
+3 5 8 4 2
+
+Proses terus dilakukan sampai seluruh data terurut.
+
+Contoh Penggunaan
+
+Binary Insertion Sort cocok digunakan untuk:
+
+Data ukuran kecil hingga menengah
+Data yang membutuhkan pengurangan jumlah perbandingan
+Sistem sederhana tanpa library sorting
+
+Contoh:
+
+Pengurutan data nilai
+Pengurutan angka manual
+Sistem embedded sederhana
