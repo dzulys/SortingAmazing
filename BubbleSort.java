@@ -1,6 +1,6 @@
 public class BubbleSort {
 
-    // Bubble Sort dengan optimasi early stop
+    // Bubble Sort dengan optimasi early stop.
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
         boolean swapped;
