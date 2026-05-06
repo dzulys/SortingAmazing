@@ -1,0 +1,42 @@
+1. Bubble Sort
+Penjelasan
+
+Bubble Sort adalah algoritma pengurutan sederhana yang bekerja dengan cara membandingkan dua elemen yang bersebelahan, lalu menukarnya jika urutannya salah.
+
+Proses ini dilakukan berulang kali sampai seluruh data terurut.
+
+Disebut “Bubble” karena elemen terbesar akan “mengapung” ke bagian akhir array seperti gelembung.
+
+Cara Kerja
+
+Contoh data:
+
+5 3 8 4 2
+
+Langkah pertama:
+
+5 > 3 → tukar
+5 < 8 → tidak tukar
+8 > 4 → tukar
+8 > 2 → tukar
+
+Hasil:
+
+3 5 4 2 8
+
+Setelah beberapa iterasi, hasil akhir:
+
+2 3 4 5 8
+Contoh Penggunaan
+
+Bubble Sort cocok digunakan untuk:
+
+Data kecil
+Pembelajaran algoritma dasar
+Data yang hampir terurut
+
+Contoh:
+
+Mengurutkan nilai siswa
+Mengurutkan angka kecil
+Simulasi pembelajaran sorting
